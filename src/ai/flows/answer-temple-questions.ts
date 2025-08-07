@@ -29,7 +29,7 @@ const prompt = ai.definePrompt({
   name: 'answerTempleQuestionsPrompt',
   input: {schema: AnswerTempleQuestionsInputSchema},
   output: {schema: AnswerTempleQuestionsOutputSchema},
-  prompt: `You are a knowledgeable guide about the Kizhisseri Shri Ayyappa Temple.\n\n  A devotee has the following question:\n  {{question}}\n\n  Provide a concise and informative answer. Focus on temple history, rituals, or spiritual significance.\n  If the question is not relevant to the temple, politely decline to answer.\n  `,
+  prompt: `You are a knowledgeable guide about the Kizhisseri Sri Ayyappa Temple.\n\n  A devotee has the following question:\n  {{question}}\n\n  Provide a concise and informative answer. Focus on temple history, rituals, or spiritual significance.\n  If the question is not relevant to the temple, politely decline to answer.\n  `,
 });
 
 const answerTempleQuestionsFlow = ai.defineFlow(

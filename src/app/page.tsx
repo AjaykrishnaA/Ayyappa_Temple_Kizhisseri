@@ -36,7 +36,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/60" />
           <div className="relative z-10 container px-4">
             <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight drop-shadow-lg">
-              Welcome to Kizhisseri Shri Ayyappa Temple
+              Welcome to Kizhisseri Sri Ayyappa Temple
             </h1>
             <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl font-body drop-shadow-md">
               A serene abode of Lord Ayyappan, fostering spirituality and devotion.
@@ -68,7 +68,7 @@ export default function Home() {
                   <CardTitle className="font-headline flex items-center gap-2"><Landmark /> History</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="font-body text-muted-foreground">The Kizhisseri Shri Ayyappa Temple has a rich history that dates back several centuries. It has been a spiritual center for the local community, witnessing generations of devotees who have come to seek blessings and solace. The temple's architecture reflects traditional Kerala style.</p>
+                  <p className="font-body text-muted-foreground">The Kizhisseri Sri Ayyappa Temple has a rich history that dates back several centuries. It has been a spiritual center for the local community, witnessing generations of devotees who have come to seek blessings and solace. The temple's architecture reflects traditional Kerala style.</p>
                 </CardContent>
               </Card>
               <Card className="shadow-lg hover:shadow-xl transition-shadow">

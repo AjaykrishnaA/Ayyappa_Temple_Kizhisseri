@@ -11,7 +11,7 @@ export function AppFooter() {
             <Link href="/" className="flex items-center space-x-2">
               <Landmark className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold font-headline">
-                Kizhisseri Shri Ayyappa Temple
+                Kizhisseri Sri Ayyappa Temple
               </span>
             </Link>
             <p className="text-muted-foreground font-body max-w-xs">
@@ -43,7 +43,7 @@ export function AppFooter() {
           </div>
         </div>
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground font-body">
-          <p>&copy; {new Date().getFullYear()} Kizhisseri Shri Ayyappa Temple. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kizhisseri Sri Ayyappa Temple. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
