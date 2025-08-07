@@ -7,7 +7,8 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { AiAssistant } from "@/components/ai-assistant";
 import { AppHeader } from "@/components/layout/header";
 import { AppFooter } from "@/components/layout/footer";
-import { Landmark, CalendarDays, MapPin, GalleryHorizontal, BrainCircuit, Users, BookOpen } from "lucide-react";
+import { Landmark, CalendarDays, MapPin, GalleryHorizontal, BrainCircuit, Users, BookOpen, Code } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Home() {
   const galleryImages = [
@@ -87,7 +88,7 @@ export default function Home() {
         <section id="rituals" className="py-16 md:py-24 bg-secondary/30">
           <div className="container px-4">
             <div className="text-center mb-12">
-              <h2 className="font-headline text-3xl md:text-4xl font-bold">Rituals & Festivals</h2>
+              <h2 className="font-headline text-3xl md:text-4xl font-bold">Rituals &amp; Festivals</h2>
               <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">Experience the divine ceremonies that form the heart of our temple life.</p>
             </div>
             <Tabs defaultValue="daily" className="w-full max-w-4xl mx-auto">
@@ -193,6 +194,27 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
+        {/* Developer Section */}
+        <section id="developer" className="py-16 md:py-24 bg-secondary/30">
+          <div className="container px-4">
+             <div className="text-center">
+              <h2 className="font-headline text-3xl md:text-4xl font-bold">Developed &amp; Maintained By</h2>
+              <Card className="max-w-md mx-auto mt-8 text-center shadow-lg">
+                <CardContent className="p-6 flex flex-col items-center gap-4">
+                  <Avatar className="w-24 h-24 border-4 border-primary">
+                    <AvatarImage src="https://firebasestorage.googleapis.com/v0/b/firebase-studio-bots.appspot.com/o/image-1721990494054.jpeg?alt=media" alt="Ajay krishna A" />
+                    <AvatarFallback>AK</AvatarFallback>
+                  </Avatar>
+                  <div className="text-center">
+                     <h3 className="text-xl font-bold font-headline">Ajay krishna A</h3>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
       </main>
 
       <AppFooter />
