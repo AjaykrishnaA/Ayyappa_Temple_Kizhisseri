@@ -27,9 +27,8 @@ export default function Home() {
         {/* Hero Section */}
         <section className="relative h-[60vh] min-h-[400px] flex items-center justify-center text-center text-white">
           <Image
-            src="https://placehold.co/1920x1080.png"
-            alt="Ayyappan Temple Kizhisseri"
-            data-ai-hint="hindu temple"
+            src="https://firebasestorage.googleapis.com/v0/b/firebase-studio-bots.appspot.com/o/image-1721990924905.jpeg?alt=media"
+            alt="Kizhisseri Sri Ayyappa Temple front entrance"
             fill
             className="object-cover"
             priority
