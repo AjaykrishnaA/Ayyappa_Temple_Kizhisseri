@@ -23,7 +23,7 @@ export function AppFooter() {
             <div className="space-y-2 font-body text-muted-foreground">
               <p className="flex items-center justify-center md:justify-start gap-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+91 12345 67890</span>
+                <span>+91 9544154600</span>
               </p>
               <p className="flex items-center justify-center md:justify-start gap-2">
                 <Mail className="w-4 h-4 text-primary" />
