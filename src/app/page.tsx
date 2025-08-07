@@ -177,9 +177,11 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground font-body">
-                    Ayyappan Temple, Kizhisseri,<br />
+                    Kizhisseri Sri Ayyappa Temple,<br />
+                    Kizhisseri, Kuzhimanna P.O.<br />
                     Malappuram District,<br />
-                    Kerala, India
+                    Kerala, India<br />
+                    673641
                   </p>
                   <Button className="w-full" asChild>
                     <Link href="https://maps.app.goo.gl/EMgqPQSZVcYmGRe37" target="_blank" rel="noopener noreferrer">
