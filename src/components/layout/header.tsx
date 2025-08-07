@@ -19,7 +19,7 @@ export function AppHeader() {
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Landmark className="h-6 w-6 text-primary" />
           <span className="font-bold font-headline hidden sm:inline-block">
-            Kizhisseri Ayyappan Temple
+            Kizhisseri Shri Ayyappa Temple
           </span>
            <span className="font-bold font-headline sm:hidden">
             K. A. Temple
