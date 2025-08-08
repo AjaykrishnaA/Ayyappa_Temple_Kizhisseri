@@ -27,7 +27,7 @@ export function AppFooter() {
               </p>
               <p className="flex items-center justify-center md:justify-start gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="hover:text-primary transition-colors">contact@ayyappantemple.org</span>
+                <span className="hover:text-primary transition-colors">contact@ayyappatemple.org</span>
               </p>
             </div>
           </div>

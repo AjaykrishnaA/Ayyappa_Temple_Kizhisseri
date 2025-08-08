@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Kizhisseri Sri Ayyappa Temple',
-  description: 'Official website for the Ayyappan Temple in Kizhisseri. Find information on rituals, history, and events.',
+  description: 'Official website for the Ayyappa Temple in Kizhisseri. Find information on rituals, history, and events.',
 };
 
 export default function RootLayout({

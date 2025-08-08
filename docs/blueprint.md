@@ -1,4 +1,4 @@
-# **App Name**: Kizhisseri Ayyappan Temple
+# **App Name**: Kizhisseri Sri Ayyappa Temple Website
 
 ## Core Features:
 
