@@ -12,11 +12,11 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Home() {
   const galleryImages = [
-    { src: "https://placehold.co/800x600.png", alt: "Temple exterior", hint: "temple architecture" },
-    { src: "https://placehold.co/800x600.png", alt: "Main deity shrine", hint: "hindu deity" },
-    { src: "https://placehold.co/800x600.png", alt: "Temple festival procession", hint: "religious festival" },
-    { src: "https://placehold.co/800x600.png", alt: "Devotees during a puja", hint: "devotees praying" },
-    { src: "https://placehold.co/800x600.png", alt: "Intricate carvings on temple walls", hint: "temple art" },
+    { src: "/images/gallery/temple-front-entrance.jpg", alt: "Temple front entrance", hint: "temple architecture" },
+    { src: "/images/gallery/temple-front-entrance-old.jpg", alt: "Temple front entrance (historical)", hint: "temple history" },
+    { src: "/images/gallery/temple-main-sanctum.jpg", alt: "Temple main sanctum", hint: "temple main sanctum" },
+    { src: "/images/gallery/temple-interior.jpg", alt: "Temple interior", hint: "temple interior" },
+    { src: "/images/gallery/temple-sanctum-sculptures.jpg", alt: "Temple sanctum sculptures", hint: "temple art" },
   ];
 
   return (
