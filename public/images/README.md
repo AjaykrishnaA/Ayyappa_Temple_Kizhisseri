@@ -1,38 +1,22 @@
 # Images Directory
 
-This directory contains all the images used in the Ayyappa Temple website.
+This directory contains all the images used in the temple website.
 
-## Directory Structure
+## Payment QR Code
 
-```
-public/images/
-├── temple/           # Temple architecture, deities, rituals
-│   └── temple-front-entrance.jpg  # Hero image for homepage
-├── events/           # Festival photos, ceremonies
-├── gallery/          # General photo gallery
-└── avatars/          # Profile pictures
-    └── ajay-krishna-a.jpg  # Developer avatar
-```
+**File needed:** `payment-qr-code.png`
 
-## Required Images
+This image should be placed in the root of the images directory and should contain:
+- A QR code that links to the temple's UPI payment gateway
+- The QR code should be clear and scannable
+- Recommended size: 240x240 pixels or larger
+- Format: PNG or JPG
 
-### Currently Used in Code:
-1. **`/images/temple/temple-front-entrance.jpg`** - Hero image on homepage
-2. **`/images/avatars/ajay-krishna-a.jpg`** - Developer profile picture
+The QR code will be displayed in the donation modal when users click "Donate Securely" in the footer.
 
-### Recommended Image Specifications:
-- **Hero image**: 1920x1080px or larger, landscape orientation
-- **Avatar image**: 400x400px or larger, square orientation
-- **Format**: JPG for photos, PNG for graphics with transparency
-- **File size**: Keep under 500KB for web optimization
+## Current Images
 
-## Naming Conventions
-- Use kebab-case: `temple-front-entrance.jpg`
-- Include descriptive names: `ayyappa-deity-statue.jpg`
-- Add dimensions if needed: `temple-entrance-1920x1080.jpg`
-
-## How to Add Images
-1. Place your image files in the appropriate subdirectory
-2. Use the exact filename referenced in the code
-3. Ensure images are optimized for web (compressed, appropriate dimensions)
-4. Update this README if you add new image categories
+- `avatars/` - User profile images
+- `events/` - Event-related images
+- `gallery/` - General gallery images
+- `temple/` - Temple-specific images

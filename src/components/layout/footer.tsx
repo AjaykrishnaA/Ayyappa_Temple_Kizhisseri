@@ -1,6 +1,7 @@
 import { Landmark, Phone, Mail, HeartHandshake } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '../ui/button';
+import { DonationModal } from '../donation-modal';
 
 export function AppFooter() {
   return (
@@ -36,10 +37,12 @@ export function AppFooter() {
             <p className="text-muted-foreground font-body">
               Your generous contributions help us maintain the temple and serve the devotees.
             </p>
-            <Button size="lg" className="w-full max-w-xs mx-auto md:mx-0">
-              <HeartHandshake className="mr-2 h-5 w-5" />
-              Donate Securely
-            </Button>
+            <DonationModal>
+              <Button size="lg" className="w-full max-w-xs mx-auto md:mx-0">
+                <HeartHandshake className="mr-2 h-5 w-5" />
+                Donate Securely
+              </Button>
+            </DonationModal>
           </div>
         </div>
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground font-body">
