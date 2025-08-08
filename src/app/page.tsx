@@ -199,14 +199,14 @@ export default function Home() {
           <div className="container px-4">
              <div className="text-center">
               <h2 className="font-headline text-3xl md:text-4xl font-bold">Developed &amp; Maintained By</h2>
-              <Card className="max-w-md mx-auto mt-8 text-center shadow-lg">
-                <CardContent className="p-6 flex flex-col items-center gap-4">
-                  <Avatar className="w-24 h-24 border-4 border-primary">
+              <Card className="max-w-lg mx-auto mt-8 text-center shadow-lg">
+                <CardContent className="p-8 flex flex-col items-center gap-6">
+                  <Avatar className="w-32 h-32 border-4 border-primary">
                     <AvatarImage src="/images/avatars/ajay-krishna-a.jpg" alt="Ajay krishna A" />
                     <AvatarFallback>AK</AvatarFallback>
                   </Avatar>
                   <div className="text-center">
-                     <h3 className="text-xl font-bold font-headline">Ajay krishna A</h3>
+                     <h3 className="text-2xl font-bold font-headline">Ajay Krishna Atholi</h3>
                   </div>
                 </CardContent>
               </Card>
