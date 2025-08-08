@@ -23,6 +23,8 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+    // Optimize local images
+    unoptimized: false,
   },
 };
 
