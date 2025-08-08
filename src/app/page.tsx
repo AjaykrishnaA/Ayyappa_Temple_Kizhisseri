@@ -27,7 +27,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="relative h-[60vh] min-h-[400px] flex items-center justify-center text-center text-white">
           <Image
-            src="https://firebasestorage.googleapis.com/v0/b/firebase-studio-bots.appspot.com/o/image-1721990924905.jpeg?alt=media"
+            src="/images/temple/temple-front-entrance.jpg"
             alt="Kizhisseri Sri Ayyappa Temple front entrance"
             fill
             className="object-cover"
@@ -202,7 +202,7 @@ export default function Home() {
               <Card className="max-w-md mx-auto mt-8 text-center shadow-lg">
                 <CardContent className="p-6 flex flex-col items-center gap-4">
                   <Avatar className="w-24 h-24 border-4 border-primary">
-                    <AvatarImage src="https://firebasestorage.googleapis.com/v0/b/firebase-studio-bots.appspot.com/o/image-1721990494054.jpeg?alt=media" alt="Ajay krishna A" />
+                    <AvatarImage src="/images/avatars/ajay-krishna-a.jpg" alt="Ajay krishna A" />
                     <AvatarFallback>AK</AvatarFallback>
                   </Avatar>
                   <div className="text-center">
