@@ -83,6 +83,26 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Thanthri Section */}
+ <section id="thanthri" className="py-16 md:py-24">
+ <div className="container px-4">
+ <div className="text-center">
+ <h2 className="font-headline text-3xl md:text-4xl font-bold">Esteemed Kshethram Thanthri</h2>
+ <Card className="max-w-lg mx-auto mt-8 text-center shadow-lg">
+ <CardContent className="p-8 flex flex-col items-center gap-6">
+ <Avatar className="w-32 h-32 border-4 border-primary rounded-md">
+ <AvatarImage src="/images/avatars/madhavan_namboodiri.png" alt="Brahmasree Madhavan Namboodiri" />
+ <AvatarFallback>MN</AvatarFallback>
+ </Avatar>
+ <div className="text-center">
+ <h3 className="text-2xl font-bold font-headline">Brahmasree Madhavan Namboodiri</h3>
+ </div>
+ </CardContent>
+ </Card>
+ </div>
+ </div>
+ </section>
+
         {/* Rituals Section */}
         <section id="rituals" className="py-16 md:py-24 bg-secondary/30">
           <div className="container px-4">
