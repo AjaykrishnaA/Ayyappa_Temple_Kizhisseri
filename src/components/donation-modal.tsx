@@ -21,9 +21,9 @@ export function DonationModal({ children }: DonationModalProps) {
   const [copiedItem, setCopiedItem] = useState<string | null>(null);
   const [open, setOpen] = useState(false);
 
-  const upiId = "sreeayyappakshethramkizhisseri@sbi"; // Replace with actual UPI ID
-  const accountNumber = "1234567890"; // Replace with actual account number
-  const ifscCode = "TEMPLE000123"; // Replace with actual IFSC code
+  const upiId = "sreeayyappakshethramkizhisseri@sbi";
+  const accountNumber = "44031429527";
+  const ifscCode = "SBIN0071270";
 
   const copyToClipboard = async (text: string, label: string, itemKey: string) => {
     try {
