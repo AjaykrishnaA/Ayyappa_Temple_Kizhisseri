@@ -48,15 +48,16 @@ export function DonationModal({ children }: DonationModalProps) {
       <DialogTrigger asChild>
         {children}
       </DialogTrigger>
-      <DialogContent className="sm:max-w-md">
-        <DialogHeader>
-          <DialogTitle className="flex items-center gap-2">
-            <HeartHandshake className="h-5 w-5 text-primary" />
-            Donate to Kizhisseri Sri Ayyappa Temple
-          </DialogTitle>
+        <DialogContent className="sm:max-w-md max-h-[90vh] overflow-hidden flex flex-col">
+        <DialogHeader className="flex-shrink-0">
+          <div className="flex items-center justify-between">
+            <DialogTitle className="flex items-center gap-2">
+              <HeartHandshake className="h-5 w-5 text-primary" />
+              Donate to Kizhisseri Sri Ayyappa Temple
+            </DialogTitle>
+          </div>
         </DialogHeader>
-        
-        <div className="space-y-6">
+        <div className="space-y-6 overflow-y-auto flex-1 pr-2">
           {/* QR Code Section */}
           <div className="text-center space-y-4">
             <div className="relative mx-auto w-64 h-64 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 flex items-center justify-center">
@@ -150,7 +151,7 @@ export function DonationModal({ children }: DonationModalProps) {
             </ul>
           </div>
 
-          <div className="text-center text-xs text-muted-foreground">
+          <div className="text-center text-xs text-muted-foreground pb-4">
             <p>Your generous contribution helps maintain the temple and serve devotees.</p>
             <p className="mt-1">Swamiye Saranam Ayyappa! 🙏</p>
           </div>
